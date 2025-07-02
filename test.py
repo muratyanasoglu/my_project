@@ -1,11 +1,11 @@
-from muratlib import add, subtract, multiply, divide, power
+from muratlib import add, subtract,multiply, divide, power
 
 def main():
-    print("57 + 12 = ", add(5, 7))
-    print("5 - 211 = ", subtract(10, 2))
-    print("14 * 4 = ", multiply(3, 4))
-    print("12 / 2 = " , divide(16, 2))
-    print("2 power 8 = ", power(2, 8))
+    print("57 + 8 = ", add(57,8))
+    print(("12 - 8 ="), subtract(12,8))
+    print(("13 * 3 = ") , multiply (13, 3))
+    print(("5 / 5 = ") , divide(5,5))
+    print(("2 ^ 3 = ") , power(2,3))
 
 if __name__ == "__main__":
     main()
